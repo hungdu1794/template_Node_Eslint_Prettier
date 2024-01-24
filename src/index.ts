@@ -1,1 +1,3 @@
-const v = 1
+import { config } from 'dotenv'
+config()
+console.log(`${process.env.NAME}`)
